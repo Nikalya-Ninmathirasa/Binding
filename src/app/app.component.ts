@@ -38,6 +38,6 @@ export class AppComponent {
     a=='plus'? this.Entnum++:this.Entnum--;
   }
  
- isdisable=true;
+  isdisable = !false;
   
 }

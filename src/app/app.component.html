@@ -38,9 +38,14 @@ no assignment
 <p><input type="text" value="{{Entnum}}"></p>
 <button (click)="increment('minus')">Decrease</button>
 
-
+<br><br>
 <!-- property binding -->
-
+<input #input1 type="text" value="{{title}}" placeholder="Input 1"> <br><br>
+<input #input2 type="text" [value]="title" placeholder="Input 2">
+<br><br>
+<!-- boolean value -->
+<input type="text" placeholder="one" disabled="{{isdisable}}"> <br><br>
+<input type="text" placeholder="two" [disabled]="isdisable">
 
 
 
