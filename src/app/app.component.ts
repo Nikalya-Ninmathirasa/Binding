@@ -39,5 +39,10 @@ export class AppComponent {
   }
  
   isdisable = !false;
+
+  color='green';
+  bcolor='yellow';
+
+  data='Initial!';
   
 }
